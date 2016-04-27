@@ -13,7 +13,7 @@ public class Calculadora {
 	}
 	
 	public int divicion(int dividendo, int divisor){
-		return 4;
+		return (dividendo/divisor);
 	}
 
 }
