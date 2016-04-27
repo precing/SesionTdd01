@@ -9,7 +9,7 @@ public class Calculadora {
 	}
 	
 	public int restar(int num1, int num2){
-		return 127;
+		return (num1-num2);
 	}
 
 }
