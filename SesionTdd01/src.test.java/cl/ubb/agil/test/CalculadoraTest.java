@@ -27,7 +27,7 @@ public class CalculadoraTest {
 	}
 	@Test
 	public void es200Menos73Es127(){
-		assertEquals(127, cal.restar(200.73));
+		assertEquals(127, cal.restar(200,73));
 		
 	}
 
