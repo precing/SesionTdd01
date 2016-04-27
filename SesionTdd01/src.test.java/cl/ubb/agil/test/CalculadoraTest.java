@@ -13,5 +13,10 @@ public class CalculadoraTest {
 		//int resultado= cal.sumar(2,3);
 		assertEquals(5, cal.sumar(2,3));
 	}
+	
+	public void menosUnoMasSiesteEsSeis(){
+		Calculadora cal=new Calculadora();
+		assertEquals(6, cal.sumar(-1,7));
+	}
 
 }
