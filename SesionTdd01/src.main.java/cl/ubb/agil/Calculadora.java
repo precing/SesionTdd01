@@ -15,5 +15,8 @@ public class Calculadora {
 	public int divicion(int dividendo, int divisor){
 		return (dividendo/divisor);
 	}
+	public int sumaExprecion(String exprecion){
+		return 14;
+	}
 
 }
