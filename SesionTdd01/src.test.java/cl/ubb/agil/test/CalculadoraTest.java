@@ -33,10 +33,13 @@ public class CalculadoraTest {
 	public void esMenosDiesMenosSincoEsMenosQuince(){
 		assertEquals(-15,cal.restar(-10, 5));
 	}
-	
 	@Test
 	public void divicionDoceEntresEscuatro(){
 		assertEquals(4,cal.divicion(12,3));
+	}
+	@Test 
+	public void divicion36EnSeisEsSeis(){
+		assertEquals(6,cal.divicion(36, 6));
 	}
 
 }
