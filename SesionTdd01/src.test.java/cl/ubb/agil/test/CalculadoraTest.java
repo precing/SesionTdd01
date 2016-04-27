@@ -41,5 +41,11 @@ public class CalculadoraTest {
 	public void divicion36EnSeisEsSeis(){
 		assertEquals(6,cal.divicion(36, 6));
 	}
+	
+	@Test
+	public void exprecionTresMasCuatroMasSieteEsCatorce(){
+		assertEquals(14, cal.sumaExprecion("3+4+7"));
+	}
+	
 
 }
